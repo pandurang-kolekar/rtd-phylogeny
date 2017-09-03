@@ -52,7 +52,7 @@ PubMed ID: [22820020](https://www.ncbi.nlm.nih.gov/pubmed/22820020)
 
 Please do feel free to give your comments / suggestions about this package by any of the following mode.
 
-* Create an issue ticket on this GitHub repository
+* Report an issue ticket on this GitHub repository [here](https://github.com/pandurang-kolekar/rtd-phylogeny/issues)
 
 * E-mail us at rtd.phylogeny@gmail.com
 
