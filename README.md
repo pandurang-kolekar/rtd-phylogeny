@@ -52,8 +52,10 @@ PubMed ID: [22820020](https://www.ncbi.nlm.nih.gov/pubmed/22820020)
 
 Please do feel free to give your comments / suggestions about this package by any of the following mode.
 
-* Report an issue ticket on this GitHub repository [here](https://github.com/pandurang-kolekar/rtd-phylogeny/issues)
+* Report an issue on this GitHub repository [here](https://github.com/pandurang-kolekar/rtd-phylogeny/issues)
 
 * E-mail us at rtd.phylogeny@gmail.com
 
 * Fill the feedback form for the RTD Phylogeny server: Available [here](https://docs.google.com/forms/d/e/1FAIpQLSel8RYKGQ3IIUxwjo0HgrDUyNv0ClNNwQETvguLUA2VYt0Odw/viewform)
+
+Your feedback is highly valuable! 
