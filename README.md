@@ -4,7 +4,6 @@ Molecular phylogeny analysis using Return time distribution (RTD) based alignmen
 ![alt text][logo]
 
 [logo]: http://196.1.114.46:1800/RTD/images/RTD_.jpg "RTD logo (c) Pandurang Kolekar 2017"
-___
 
 ### Author
 Pandurang Kolekar, PhD Bioinformatics
@@ -14,6 +13,7 @@ Pandurang Kolekar, PhD Bioinformatics
 E-mail: pandurang.kolekar@gmail.com
 
 Website: [http://biosakshat.wixsite.com/pandurang-kolekar](http://biosakshat.wixsite.com/pandurang-kolekar)
+___
 
 ## Introduction
 
