@@ -28,9 +28,9 @@ Please refer to requirements.txt file
 
 ## Quick Start
 ```shell
-python src/rtd-phylogeny.py --help
-python src/rtd-phylogeny.py --version
-python src/rtd-phylogeny.py --fastaFile <input_file> --seqType N --kmerSize 3
+python src/rtd_phylogeny.py --help
+python src/rtd_phylogeny.py --version
+python src/rtd_phylogeny.py --fastaFile <input_file> --seqType N --kmerSize 3
 ```
 
 ## Web Server
