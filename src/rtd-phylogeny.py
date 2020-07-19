@@ -1,12 +1,12 @@
 import argparse
-from bio import SeqIO
+from Bio import SeqIO
 import re
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.spatial.distance import squareform, pdist
 import pandas
 import dendropy
-from ete3 import Tree, TreeStyle
+from ete3 import Tree
 
 
 class CustomFormatter(argparse.ArgumentDefaultsHelpFormatter, argparse.RawDescriptionHelpFormatter):
@@ -17,7 +17,7 @@ def getRTD(sequence, kmer):
     """Compute return times of kmer in given sequence and return mean and standard deviation for RTD vector  """
     modSeq = re.sub(kmer, "*", sequence)
     rt = modSeq.split("*")
-    rtvector = map(len, rt)
+    rtvector = list(map(len, rt))
     if len(rtvector) > 1:
         del rtvector[0]
         del rtvector[-1]
@@ -78,10 +78,10 @@ parser.add_argument('--version', action='version', version='RTD v1.0.1')
 
 args = parser.parse_args()
 
-fvector = args.fastaFile + ".RTD_vector.k-" + str(args.kmerSize) + ".tsv"
-fdist = args.fastaFile + ".RTD_distance_matrix.k-." + str(args.kmerSize) + ".tsv"
-fnewick = args.fastaFile + ".RTD_newick.k-." + str(args.kmerSize) + ".nwk"
-fpng = args.fastaFile + ".RTD_newick.k-." + str(args.kmerSize) + ".png"
+fvector = args.fastaFile + ".RTD_vector.k_" + str(args.kmerSize) + ".tsv"
+fdist = args.fastaFile + ".RTD_distance_matrix.k_" + str(args.kmerSize) + ".tsv"
+fnewick = args.fastaFile + ".RTD_newick.k_" + str(args.kmerSize) + ".nwk"
+fpng = args.fastaFile + ".RTD_newick.k_" + str(args.kmerSize) + ".png"
 
 if args.seqType == 'N':
     bases = ['A', 'C', 'G', 'T']
@@ -90,7 +90,6 @@ else:
 
 fasta_sequences = SeqIO.parse(open(args.fastaFile), 'fasta')
 
-global kmers
 kmers = getKmers(args.kmerSize)
 fout = open(fvector, "w")
 fout.write("OTU\t")
@@ -119,7 +118,7 @@ sn = str(nj_tree) + ";"
 ftree = open(fnewick, "w")
 
 ftree.write(sn)
-ftree.close
+ftree.close()
 
 t = Tree(sn)
 t.render(fpng)

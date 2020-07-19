@@ -23,14 +23,8 @@ The statistical details of the method are described in [Kolekar et al. 2012](htt
 
 ## Requirements
 
-* Python 2.7+
-* BioPython
-* Pandas
-* NumPy
-* SciPy
-* matplotlib
-* DendroPy
-* ete3
+Tested on Python 3.7
+Please refer to requirements.txt file
 
 ## Quick Start
 ```shell
