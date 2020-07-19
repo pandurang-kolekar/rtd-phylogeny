@@ -1,0 +1,6 @@
+include *.txt
+include *.yml
+include LICENSE
+recursive-include data *.fa
+recursive-include data *.jpeg
+recursive-include src *.py
