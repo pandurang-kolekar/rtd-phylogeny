@@ -35,11 +35,11 @@ python src/rtd_phylogeny.py --fastaFile <input_file> --seqType N --kmerSize 3
 
 ## Web Server
 
-The web server for RTD-based phylogeny is available from [http://bioinfo.net.in/RTD/home.html](http://196.1.114.46:1800/RTD/home.html).
+The web server for RTD-based phylogeny is available from [http://bioinfo.unipune.ac.in/RTD/](http://bioinfo.unipune.ac.in/RTD/).
 
 ## Perl Executables
 
-The standalone Perl executables for RTD Phylogeny program are available from [http://bioinfo.net.in/RTD/download.html](http://196.1.114.46:1800/RTD/download.html).
+The standalone Perl executables for RTD Phylogeny program are available from [http://bioinfo.unipune.ac.in/RTD/download.html](http://bioinfo.unipune.ac.in/RTD/download.html).
 
 ## Citation Information
 
