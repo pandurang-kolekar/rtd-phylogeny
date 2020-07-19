@@ -1,9 +1,7 @@
-![alt text](data/RTD_Phylogeny.jpeg "RTD logo (c) Pandurang Kolekar 2017")
+![alt text](https://github.com/pandurang-kolekar/rtd-phylogeny/raw/master/data/RTD_Phylogeny.jpeg "RTD logo (c) Pandurang Kolekar 2017")
 
 # RTD Phylogeny
 Molecular phylogeny analysis using Return time distribution (RTD) based alignment-free sequence analysis method
-
-
 
 ### Author
 Pandurang Kolekar, PhD Bioinformatics
@@ -26,11 +24,15 @@ The statistical details of the method are described in [Kolekar et al. 2012](htt
 Tested on Python 3.7
 Please refer to requirements.txt file
 
+## Installation
+```shell
+pip install rtd-phylogeny
+```
 ## Quick Start
 ```shell
-python src/rtd_phylogeny.py --help
-python src/rtd_phylogeny.py --version
-python src/rtd_phylogeny.py --fastaFile <input_file> --seqType N --kmerSize 3
+python -m rtd_phylogeny --help
+python -m rtd_phylogeny --version
+python -m rtd_phylogeny --fastaFile <input_file> --seqType N --kmerSize 3
 ```
 
 ## Web Server
